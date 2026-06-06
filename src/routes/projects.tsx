@@ -4,10 +4,10 @@ import { SiteLayout } from "@/components/SiteLayout";
 export const Route = createFileRoute("/projects")({
   head: () => ({
     meta: [
-      { title: "Projects — Alex Morgan" },
-      { name: "description", content: "Selected projects with live demos and source code." },
-      { property: "og:title", content: "Projects — Alex Morgan" },
-      { property: "og:description", content: "Selected projects with live demos and source code." },
+      { title: "Projects — Tanishka Chhabra" },
+      { name: "description", content: "Selected projects by Tanishka Chhabra — portfolio website, calculator app, and upcoming work." },
+      { property: "og:title", content: "Projects — Tanishka Chhabra" },
+      { property: "og:description", content: "Selected projects with details on technologies used." },
       { property: "og:url", content: "/projects" },
     ],
     links: [{ rel: "canonical", href: "/projects" }],
@@ -17,44 +17,23 @@ export const Route = createFileRoute("/projects")({
 
 const projects = [
   {
-    title: "Atlas Analytics",
-    description: "Real-time dashboard for product teams with full WCAG AA compliance and sub-100ms interaction latency.",
-    tags: ["React", "TypeScript", "D3", "WebSockets"],
+    title: "Portfolio Website",
+    description: "A fully accessible, responsive personal portfolio built from scratch using semantic HTML5, modern CSS3, and vanilla JavaScript. Features dark mode, smooth animations, and WCAG-compliant navigation.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    demo: "/",
+    repo: "https://github.com",
+  },
+  {
+    title: "Calculator Application",
+    description: "A functional calculator built to practice DOM manipulation, event handling, and clean UI design with keyboard support.",
+    tags: ["HTML", "CSS", "JavaScript"],
     demo: "https://example.com",
     repo: "https://github.com",
   },
   {
-    title: "Mosaic CMS",
-    description: "Headless content platform supporting collaborative editing, versioning, and a plugin SDK.",
-    tags: ["Node.js", "Postgres", "tRPC", "Redis"],
-    demo: "https://example.com",
-    repo: "https://github.com",
-  },
-  {
-    title: "Pulse Mobile",
-    description: "Cross-platform fitness companion app with offline-first sync and adaptive workout plans.",
-    tags: ["React Native", "GraphQL", "SQLite"],
-    demo: "https://example.com",
-    repo: "https://github.com",
-  },
-  {
-    title: "Quill Editor",
-    description: "A minimal, keyboard-first markdown editor with vim mode and live preview.",
-    tags: ["Svelte", "Rust (WASM)"],
-    demo: "https://example.com",
-    repo: "https://github.com",
-  },
-  {
-    title: "Harbor Auth",
-    description: "Drop-in authentication service with passkey support and detailed audit logs.",
-    tags: ["Go", "Postgres", "WebAuthn"],
-    demo: "https://example.com",
-    repo: "https://github.com",
-  },
-  {
-    title: "Lumen Docs",
-    description: "Documentation framework focused on a11y, fast search, and beautiful defaults.",
-    tags: ["Next.js", "MDX", "Algolia"],
+    title: "Future Projects",
+    description: "More exciting projects are on the way as I continue exploring React, Node.js, and AI-powered web applications.",
+    tags: ["Coming Soon"],
     demo: "https://example.com",
     repo: "https://github.com",
   },
@@ -68,7 +47,7 @@ function Projects() {
           <span className="eyebrow">Work</span>
           <h1 id="projects-heading">Projects</h1>
           <p style={{ maxWidth: "60ch" }}>
-            A selection of products and tools I've designed and built.
+            A selection of things I've built while learning and experimenting with web technologies.
           </p>
 
           <div className="card-grid" style={{ marginTop: "2rem" }}>

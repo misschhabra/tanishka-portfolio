@@ -4,9 +4,9 @@ import { SiteLayout } from "@/components/SiteLayout";
 export const Route = createFileRoute("/skills")({
   head: () => ({
     meta: [
-      { title: "Skills — Alex Morgan" },
-      { name: "description", content: "Technical skills: frontend, backend, programming languages, and developer tools." },
-      { property: "og:title", content: "Skills — Alex Morgan" },
+      { title: "Skills — Tanishka Chhabra" },
+      { name: "description", content: "Technical skills: HTML, CSS, JavaScript, C++, Python, and Git & GitHub." },
+      { property: "og:title", content: "Skills — Tanishka Chhabra" },
       { property: "og:description", content: "Frontend, backend, languages, and tooling expertise." },
       { property: "og:url", content: "/skills" },
     ],
@@ -19,37 +19,23 @@ const groups = [
   {
     title: "Frontend",
     items: [
-      { name: "React / Next.js", level: 95 },
-      { name: "TypeScript", level: 92 },
-      { name: "CSS & Design Systems", level: 90 },
-      { name: "Accessibility (WCAG)", level: 88 },
+      { name: "HTML", level: 90 },
+      { name: "CSS", level: 85 },
+      { name: "JavaScript", level: 80 },
     ],
   },
   {
-    title: "Backend",
+    title: "Programming Languages",
     items: [
-      { name: "Node.js", level: 88 },
-      { name: "PostgreSQL", level: 82 },
-      { name: "GraphQL / tRPC", level: 80 },
-      { name: "REST API design", level: 90 },
+      { name: "C++", level: 75 },
+      { name: "Python", level: 70 },
+      { name: "JavaScript", level: 80 },
     ],
   },
   {
-    title: "Languages",
+    title: "Tools & Platforms",
     items: [
-      { name: "JavaScript / TypeScript", level: 95 },
-      { name: "Python", level: 75 },
-      { name: "Go", level: 60 },
-      { name: "SQL", level: 85 },
-    ],
-  },
-  {
-    title: "Tools",
-    items: [
-      { name: "Git / GitHub", level: 92 },
-      { name: "Figma", level: 80 },
-      { name: "Docker", level: 70 },
-      { name: "Vite / Webpack", level: 85 },
+      { name: "Git & GitHub", level: 78 },
     ],
   },
 ];
@@ -62,7 +48,7 @@ function Skills() {
           <span className="eyebrow">Skills</span>
           <h1 id="skills-heading">What I work with</h1>
           <p style={{ maxWidth: "60ch" }}>
-            A breakdown of the technologies I use day-to-day, grouped by domain.
+            A breakdown of the technologies and tools I'm learning and using as I grow as a developer.
           </p>
 
           <div style={{ marginTop: "2.5rem" }}>

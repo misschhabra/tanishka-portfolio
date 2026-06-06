@@ -43,8 +43,8 @@ export function SiteLayout({ children }: { children: ReactNode }) {
 
       <header className="site-header" role="banner">
         <div className="container header-inner">
-          <Link to="/" className="brand" aria-label="Alex Morgan — Home">
-            <span aria-hidden="true">◆</span> Alex Morgan
+          <Link to="/" className="brand" aria-label="Tanishka Chhabra — Home">
+            <span aria-hidden="true">◆</span> Tanishka Chhabra
           </Link>
 
           <nav aria-label="Primary" className="primary-nav">
@@ -116,11 +116,10 @@ export function SiteLayout({ children }: { children: ReactNode }) {
 
       <footer className="site-footer" role="contentinfo">
         <div className="container footer-inner">
-          <p>© {new Date().getFullYear()} Alex Morgan. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Tanishka Chhabra. All rights reserved.</p>
           <ul role="list" className="social-list" aria-label="Social media">
             <li><a href="https://github.com" rel="noopener noreferrer" target="_blank" aria-label="GitHub profile">GitHub</a></li>
-            <li><a href="https://linkedin.com" rel="noopener noreferrer" target="_blank" aria-label="LinkedIn profile">LinkedIn</a></li>
-            <li><a href="https://twitter.com" rel="noopener noreferrer" target="_blank" aria-label="Twitter profile">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/tanishka-chhabra-48560037a" rel="noopener noreferrer" target="_blank" aria-label="LinkedIn profile">LinkedIn</a></li>
           </ul>
         </div>
       </footer>

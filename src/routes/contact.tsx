@@ -5,9 +5,9 @@ import { useState, type FormEvent } from "react";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact — Alex Morgan" },
-      { name: "description", content: "Get in touch with Alex Morgan — accessible contact form and social links." },
-      { property: "og:title", content: "Contact — Alex Morgan" },
+      { title: "Contact — Tanishka Chhabra" },
+      { name: "description", content: "Get in touch with Tanishka Chhabra — accessible contact form and social links." },
+      { property: "og:title", content: "Contact — Tanishka Chhabra" },
       { property: "og:description", content: "Get in touch via the contact form or social media." },
       { property: "og:url", content: "/contact" },
     ],
@@ -39,7 +39,7 @@ function Contact() {
     setErrors(next);
 
     if (Object.keys(next).length === 0) {
-      setStatus("Thanks! Your message has been sent. I'll reply within 1–2 business days.");
+      setStatus("Thanks! Your message has been sent. I'll reply soon.");
       e.currentTarget.reset();
     } else {
       setStatus(null);
@@ -101,10 +101,9 @@ function Contact() {
               <h2 id="connect-heading">Other ways to connect</h2>
               <p>Prefer email or social? Reach out on any of these channels.</p>
               <ul role="list" style={{ listStyle: "none", padding: 0, display: "grid", gap: ".5rem" }}>
-                <li><a href="mailto:hello@alexmorgan.dev">hello@alexmorgan.dev</a></li>
+                <li><a href="mailto:chhabratanishka70@gmail.com">chhabratanishka70@gmail.com</a></li>
                 <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub ↗</a></li>
-                <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></li>
-                <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter ↗</a></li>
+                <li><a href="https://www.linkedin.com/in/tanishka-chhabra-48560037a" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></li>
               </ul>
             </aside>
           </div>
