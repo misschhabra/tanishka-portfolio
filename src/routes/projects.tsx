@@ -25,10 +25,10 @@ const projects = [
   },
   {
     title: "Calculator Application",
-    description: "A functional calculator built to practice DOM manipulation, event handling, and clean UI design with keyboard support.",
+    description: "A responsive calculator built using HTML, CSS, and JavaScript. Supports basic arithmetic operations, keyboard input, clear and delete functionality, and responsive design.",
     tags: ["HTML", "CSS", "JavaScript"],
-    demo: "https://example.com",
-    repo: "https://github.com",
+    demo: "https://misschhabra.github.io/calculator-app/",
+    repo: "https://github.com/misschhabra/calculator-app",
   },
   {
     title: "Future Projects",
