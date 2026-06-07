@@ -25,10 +25,10 @@ const projects = [
   },
   {
     title: "Calculator Application",
-    description: "A responsive calculator built using HTML, CSS, and JavaScript. Supports basic arithmetic operations, keyboard input, clear and delete functionality, and responsive design.",
+    description: "A functional calculator built to practice DOM manipulation, event handling, and clean UI design with keyboard support.",
     tags: ["HTML", "CSS", "JavaScript"],
-    demo: "PASTE_YOUR_GITHUB_PAGES_URL",
-    repo: "PASTE_YOUR_CALCULATOR_GITHUB_URL",
+    demo: "https://example.com",
+    repo: "https://github.com",
   },
   {
     title: "Future Projects",
